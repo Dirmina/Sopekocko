@@ -2,6 +2,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const dotenv = require('dotenv').config();
 const path = require('path');
 
 //Modèles mongoose :
@@ -16,8 +17,8 @@ const userRoutes = require('./routes/user');
 const app = express();
 
 
-//Connexion BDD :
-mongoose.connect('mongodb+srv://Jean:NBCT8vWDjYiJsgvj@so-pekocko-2eecg.mongodb.net/so-pekocko?retryWrites=true&w=majority',
+//Connexion BDD : 
+mongoose.connect(process.env.MONGO_URL,
     { useNewUrlParser: true,
     useUnifiedTopology: true }) 
     .then(() => console.log('Connexion à MongoDB réussie !'))
