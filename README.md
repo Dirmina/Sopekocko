@@ -4,9 +4,9 @@ Projet 6 OpenClassRooms : Serveur et API REST sécurisée
 
 # Backend
 Pour lancer le backend :
-  1.renommé le fichier ".env-example" en ".env"
-  2.remplacer la valeur de la variable MONGO_URL par l'adresse de votre base de données
-  3.Une fois réaliser, rendez vous dans le répertoire backend à l'aide de la console
+  1.renommez le fichier ".env-example" en ".env"
+  2.remplacez la valeur de la variable MONGO_URL par l'adresse de votre base de données
+  3.Une fois réalisée, rendez vous dans le répertoire backend à l'aide de la console
   4.Lancez la commande "node server"
   5.Si tout est ok, le serveur se lance sur le port 3000(par défaut)
   
