@@ -3,6 +3,10 @@
 # Brief
 L'entreprise a récemment subit de nombreuses attaques. On nous demande de nous occuper de la création et de la sécurisation du serveur et l'API.
 
+# Technologies :
+ • Node.js
+ • MongoDB
+
 # Backend
 Pour lancer le backend :
   1.renommez le fichier ".env-example" en ".env"
