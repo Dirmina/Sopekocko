@@ -1,6 +1,7 @@
-# Sopekocko
-Projet 6 OpenClassRooms : Serveur et API REST sécurisée
+# Sopekocko, Projet n°6 d'OpenClassRooms
 
+# Brief
+L'entreprise a récemment subit de nombreuses attaques. On nous demande de nous occuper de la création et de la sécurisation du serveur et l'API.
 
 # Backend
 Pour lancer le backend :
